@@ -357,7 +357,7 @@ class AppStore extends Component {
               <TabItem
                 key={eachTab.tabId}
                 tabDetails={eachTab}
-                setActiveTabId={this.setActiveTab}
+                setActiveTabId={this.setActiveTabId}
                 isActive={activeTabId === eachTab.tabId}
               />
             ))}
